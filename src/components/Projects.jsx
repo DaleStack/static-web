@@ -22,38 +22,33 @@ const Projects = () => {
           </h4>
           <br />
         </div>
-        <div className="flex items-center lg:flex-row flex-col-reverse gap-5">
-          <img
-            src={Projects.image}
-            alt="..."
-            data-aos="fade-right"
-            className="max-w-[45vw] min-w-[22rem]"
-          />
+
+        <div className="flex justify-center items-center w-full flex-1">
           <Swiper
-            pagination={{
-              clickable: true,
-            }}
+            pagination={{ clickable: true }}
             data-aos="fade-left"
             spaceBetween={20}
             modules={[Pagination]}
-            className="rounded-3xl pb-16 max-w-xs drop-shadow-primary self-start"
+            className="rounded-3xl pb-16 w-full max-w-s sm:max-w-md md:max-w-2xl lg:max-w-3xl shadow-lg mx-auto"
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide
                 key={i}
-                className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit"
+                className="bg-white rounded-3xl p-5 border-b-8 border-purple-100 h-fit"
               >
-                <img src={content.image} alt="..." />
+                <img
+                  src={content.image}
+                  alt={content.title}
+                  className="w-full h-48 sm:h-56 md:h-64 lg:h-80 xl:h-80 object-cover rounded-xl mb-4"
+                />
                 <div className="flex flex-col gap-1 mt-2">
-                  <h5 className="font-bold font-Poppins">{content.title}</h5>
-                  <button className="font-bold text-gray self-end">
-                    READ MORE
-                  </button>
+                  <h5 className="font-bold text-lg text-gray-800">{content.title}</h5>
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
         </div>
+
       </div>
     </section>
   );
