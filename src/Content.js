@@ -12,9 +12,12 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
+import project1 from "./assets/images/projects/proj1.png";
+import project2 from "./assets/images/projects/proj2.png";
+import project3 from "./assets/images/projects/proj3.png";
+import project4 from "./assets/images/projects/proj4.png";
+import project5 from "./assets/images/projects/proj5.png";
+import project6 from "./assets/images/projects/proj6.png";
 import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -58,10 +61,11 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
-    btnText: "Hire Me",
+    title: "IT Software Engr. &",
+    title2: "Mobile Developer",
+    firstName: "TOM OLIVER",
+    LastName: "CHUA",
+    btnText: "Contact Me",
     image: Hero_person,
     hero_content: [
       {
@@ -138,16 +142,28 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "Q-VIN MOBILE APP",
         image: project1,
       },
       {
-        title: "Social Media web",
+        title: "UNION DIGITAL BANK",
         image: project2,
       },
       {
-        title: "Creative Website",
+        title: "STAYSAFE PH",
         image: project3,
+      },
+      {
+        title: "CEBU PACIFIC BOOKING APP",
+        image: project4,
+      },
+      {
+        title: "GO MANILA",
+        image: project5,
+      },
+      {
+        title: "CAUYAN CITY CONNECT",
+        image: project6,
       },
     ],
   },
