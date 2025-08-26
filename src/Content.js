@@ -1,12 +1,13 @@
 // import images
 import Hero_person from "./assets/images/Hero/p1.png";
 
-import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
-import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import flutter from "./assets/images/Skills/flutter.png";
+import android from "./assets/images/Skills/android.png";
+import html5 from "./assets/images/Skills/html5.png";
+import uiux from "./assets/images/Skills/uiux.png";
+import dart from "./assets/images/Skills/dart.png";
+import laravel from "./assets/images/Skills/laravel.png";
+
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -83,34 +84,34 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
+        name: "Flutter",
+        para: "Build cross-platform apps with a single codebase.",
+        logo: flutter,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
+        name: "HTML5",
+        para: "Craft modern, semantic, and responsive web pages.",
+        logo: html5,
       },
       {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
+        name: "Android",
+        para: "Develop scalable and performant mobile applications.",
+        logo: android,
       },
       {
-        name: "React js",
-        para: "Lorem ipsum text  dummy",
-        logo: reactjs,
+        name: "UI/UX",
+        para: "Design user-friendly and engaging digital experiences.",
+        logo: uiux,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        name: "Dart",
+        para: "Power Flutter apps with fast and expressive coding.",
+        logo: dart,
       },
       {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
+        name: "Laravel",
+        para: "Build robust web apps with a clean PHP framework.",
+        logo: laravel,
       },
     ],
     icon: MdArrowForward,

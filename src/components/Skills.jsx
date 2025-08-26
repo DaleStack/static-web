@@ -47,19 +47,7 @@ const Skills = () => {
           <h6>{selectSkill?.name}</h6>
         </div>
         <br />
-        <ul className="list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7">
-          <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
-          <li>Lorem ipsum dolor sit, ame.</li>
-          <li>Lorem ipsum dolor sit, amet consectetur</li>
-          <li>
-            Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing.
-          </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est
-            beatae quos rem.
-          </li>
-        </ul>
-        <br />
+
         <div className="flex justify-end">
           <button onClick={closeModal} className="btn">
             Close
@@ -96,15 +84,6 @@ const Skills = () => {
               <div>
                 <h6>{skill.name}</h6>
                 <p className="italic">{skill.para}</p>
-                <div
-                  onClick={() => {
-                    setSelectSkill(skill);
-                    openModal();
-                  }}
-                  className="text-xl absolute top-3 right-3"
-                >
-                  {createElement(skills.icon)}
-                </div>
               </div>
             </div>
           ))}
