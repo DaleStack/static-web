@@ -43,14 +43,17 @@ const Hero = () => {
         </div>
 
         {/* sec col */}
-        <div className="md:h-[37rem] h-96">
+        <div className="w-32 sm:w-40 md:w-56 lg:w-64 xl:w-72 mt-28 md:mt-0">
           <img
             src={hero.image}
             data-aos="slide-up"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-bottom"
             alt="..."
-            className="h-full object-cover"
+            className="w-full h-auto object-contain mx-auto"
           />
         </div>
+
       </div>
     </section>
   );

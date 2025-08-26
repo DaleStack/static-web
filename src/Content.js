@@ -1,5 +1,5 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
+import Hero_person from "./assets/images/Hero/p1.png";
 
 import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
@@ -18,7 +18,7 @@ import project3 from "./assets/images/projects/proj3.png";
 import project4 from "./assets/images/projects/proj4.png";
 import project5 from "./assets/images/projects/proj5.png";
 import project6 from "./assets/images/projects/proj6.png";
-import person_project from "./assets/images/projects/person.png";
+import person_project from "./assets/images/projects/p2.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
