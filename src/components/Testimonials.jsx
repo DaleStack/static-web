@@ -48,7 +48,7 @@ const Testimonials = () => {
               >
                 <img src={content.img} alt="..." className="h-24" />
                 <div>
-                  <p className="sm:text-base text-sm">{content.review}</p>
+                  <p className="text-sm line-clamp-4">{content.review}</p>
                   <br />
                   <h6>{content.name}</h6>
                 </div>
